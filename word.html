@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+        border-collapse:collapse;
+        border: 1px solid #000000;
+        }
+        td,th{
+        border-collapse:collapse;
+        border: 1px solid #000000;
+        text-align: center;
+        }
+        th {
+            padding: 10px;
+        }
+       .target-person {
+          font-size: 18px;
+          margin-left: 20px;
+          margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="target-person">
+        <span>目标人:</span>
+        <span>陶静</span>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th width="5%">序号</th>
+                <th width="20%">本月目标分解需完成工作内容</th>
+                <th width="5%">权重</th>
+                <th width="5%">进度</th>
+                <th width="5%">分值</th>
+                <th width="20%">备注</th>
+                <th width="20%">部门领导审核意见</th>
+                <th width="20%">领导审核意见</th>
+            </tr>
+        </thead>
+        <tbody id="tb">
+            <tr>
+                <td>1</td>
+                <td>会责的开会提醒功能</td>
+                <td>15</td>
+                <td>60%</td>
+                <td rowspan="3">80</td>
+                <td rowspan="3">备注信息内容备注信息内容备注信息内容</td>
+                <td rowspan="3">部门领导审核的意见内容部门领导审核的意见内容部门领导意见审核的内容</td>
+                <td rowspan="3">领导审核的意见内容领导审核的意见内容</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>会责的开会提醒功能</td>
+                <td>15</td>
+                <td>70%</td>
+               
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>会责的开会提醒功能</td>
+                <td>15</td>
+                <td>100%</td>
+            </tr>
+
+        </tbody>
+    </table>
+    <script>
+        //  var tb=document.getElementById("tb")
+        //  var tr=""
+        //  for(var i=0;i<10;i++){
+        //    tr += `<tr>
+        //         <td>1</td>
+        //         <td>会责的开会提醒功能</td>
+        //         <td>15</td>
+        //         <td>80</td>
+        //         <td >备注信息内容备注信息内容备注信息内容</td>
+        //         <td>部门领导审核的意见内容部门领导审核的意见内容部门领导意见审核的内容</td>
+        //         <td>领导审核的意见内容领导审核的意见内容</td>
+        //     </tr>`
+        //  }
+        //  tb.innerHTML=tr
+    </script>
+</body>
+</html>
